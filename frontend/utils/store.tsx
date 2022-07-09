@@ -42,6 +42,8 @@ export const AuthProvider = ({ children }: Props) => {
   const [me, setMe] = useState<MeType | null>(null);
 
   const login = (me: MeType) => {
+    // console.log("me : ", me);
+    
     setMe(me);
   };
 

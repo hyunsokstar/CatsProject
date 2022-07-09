@@ -11,6 +11,8 @@ function CatCard({ cat }: Props) {
   console.log(cat);
   return (
     <Col xs={24} sm={12} md={8}>
+
+      여기 출력하고 있어 
       <Card
         hoverable
         style={{ width: 300, marginBottom: 50 }}

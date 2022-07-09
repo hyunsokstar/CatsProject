@@ -1,4 +1,4 @@
-import { CatsService } from './cats/cats.service';
+import { CatsService } from './cats/services/cats.service';
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 

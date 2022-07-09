@@ -39,7 +39,7 @@ const Signup = () => {
         alert(error.message);
       }
     }
-  }, [email, password]);
+  }, [email, password, name]);
 
   return (
     <>
